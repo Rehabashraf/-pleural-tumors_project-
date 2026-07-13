@@ -37,63 +37,100 @@ GEO accession : GSE327166
 
 
  Raw Count Matrix
+ 
         │
         ▼
+ 
  Import Data
+ 
         │
         ▼
+ 
  Gene Annotation
+ 
         │
         ▼
+ 
  Low-count Filtering
  (filterByExpr)
+ 
         │
         ▼
+ 
  TMMwsp Normalization
  (edgeR)
+        
         │
         ▼
+ 
  log2 CPM
+        
         │
         ▼
+ 
+ 
  Quality Control
 │
 ├── Boxplots
-├── Density plots
+├
+── Density plots
 ├── MDS
+
 ├── Correlation Heatmap
+
 └── Hierarchical Clustering
+        
         │
         ▼
+ 
  Design Matrix
+        
         │
         ▼
+ 
  voom Transformation
+        
         │
         ▼
+ 
  Linear Model (lmFit)
+         
         │
         ▼
+ 
  Empirical Bayes (eBayes)
+        
         │
         ▼
+ 
  Pairwise Contrasts
+        
         │
         ▼
+ 
  Differential Expression
+        
         │
         ▼
+ 
  Visualization
 │
 ├── Volcano plots
-├── MA plots
+├
+── MA plots
+
 ├── Heatmaps
+
 └── Venn diagram
+        
         │
         ▼
+ 
  Functional Analysis
+
 │
 ├── Reactome
+
 └── KEGG GSEA
   
 
